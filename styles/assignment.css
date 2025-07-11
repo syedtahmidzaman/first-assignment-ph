@@ -34,8 +34,15 @@ nav ul li{
     padding: 12px 36px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 
 }
+.btn-primary:hover{
+    background-color: #00216e;
+    
+}
+
+/* .banner-style */
 
 
 .banner-title{
@@ -43,10 +50,81 @@ nav ul li{
     font-size: 65px;
 }
 .banner{
-    padding: 309px 267.5px 152px;
+    padding: 280px 267.5px 180px;
     text-align: center;
 
 }
 .header{
     background-image:url(../images/Hero-bg.png) ;
 }
+
+/* .action-bar */
+
+.action{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    align-items: center;
+    padding-top: 100px;
+    padding-left:201px;
+    padding-right:99px;
+}
+.image1{
+     border-radius:40px;
+}
+ .text-tital{
+    font-size: 45px;
+    font-weight: 700px;
+    gap: 10px;
+ }
+ .text-suntital{
+    font-size: 24px;
+    font-weight: 600px;
+    margin-top: 0px;
+    padding-right:300px;
+    color: #252432;
+
+ }  
+
+
+
+ /* .joined style */
+ 
+   .joined-bg{
+    background-color: #d3d3f9;
+    border-radius: 24px;
+    max-width: 1140px;
+    margin: 0 auto;
+   margin-top: 110px;
+   }
+ 
+    .joined-tital{
+     font-weight: 700px;
+     font-size: 38px;
+     color:#4E47FF;
+     padding-top: 50px;
+     padding-left: 200px;
+     padding-right: 200px;
+    
+    }
+ .joined-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2px;
+    line-height: 1.2px;
+ }
+
+ .item-tital{
+    font-weight: 800px;
+    font-size: 80px;
+    color: #4E47FF;
+ }
+
+ .description{
+    font-weight: 100px;
+    font-size: 20px;
+    color: #464545;
+    margin-top: 2px;
+    line-height: 1.2px;
+ }
+ 
