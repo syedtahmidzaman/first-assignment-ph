@@ -17,7 +17,7 @@ nav{
 }
 
 .nav-title{
-    font-weight:900px;
+    font-weight:1000px;
     font-size:34px;
     color: #4E47FF;
 }
@@ -35,4 +35,18 @@ nav ul li{
     border-radius: 8px;
     border: none;
 
+}
+
+
+.banner-title{
+    font-weight: 907px;
+    font-size: 65px;
+}
+.banner{
+    padding: 309px 267.5px 152px;
+    text-align: center;
+
+}
+.header{
+    background-image:url(../images/Hero-bg.png) ;
 }
