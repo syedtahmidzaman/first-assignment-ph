@@ -231,3 +231,32 @@ input[type="email"], input[type="text"],textarea {
 
 
  }
+
+ /* .footer-style */
+.foot-bg{
+
+background-color: #f9f6f6;
+
+}
+.foot-title{
+    font-size: 100px;
+    font-weight: 700px;
+    color: #4E47FF;
+    margin-bottom: 2px;
+}
+.foot-description{
+    color: #8987A1; 
+
+    }
+
+.foot-section{
+    text-align: center;
+    padding: 104px 455px;
+}
+
+ 
+ .foot-btn a {
+    text-decoration: none;
+    color: #8987A1;
+    margin: 40px;
+ }
