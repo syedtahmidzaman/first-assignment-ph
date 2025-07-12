@@ -41,6 +41,10 @@ nav ul li{
     background-color: #00216e;
     
 }
+.btn-form{
+    padding: 19px 201px ;
+    margin-top: 20px;
+}
 
 /* .banner-style */
 
@@ -77,7 +81,7 @@ nav ul li{
     font-weight: 700px;
     gap: 10px;
  }
- .text-suntital{
+ .text-subtital{
     font-size: 24px;
     font-weight: 600px;
     margin-top: 0px;
@@ -127,4 +131,103 @@ nav ul li{
     margin-top: 2px;
     line-height: 1.2px;
  }
- 
+
+/* .review-style */
+
+.review-title{
+    font-weight: 700px;
+    font-size: 40px;
+   padding-top: 159px;
+   text-align: center;
+  }
+.review-foot{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.review-section{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right:150px ;
+    gap: 24px;
+}
+.review-img{
+    border-radius: 999px;
+    height: 40px;
+    width: 40px;
+}
+.Reviewer-name{
+    line-height: 1.2px
+}
+.review{
+    padding: 24px;
+    box-shadow:0px 6px 25px 0px rgb(131, 130, 130);
+    border-radius: 14px;
+}
+
+.review-boxtital{
+    font-size: 30px;
+}
+
+
+.review-description{
+    font-size: 20px;
+     margin-top: 1px;
+}
+
+/* .focus-style */
+
+.focus-bg{
+    background-color: #f5f5f5;
+    max-width: 1140px;
+    border-radius: 15px;
+    height: 700px;
+    margin: 0 auto
+
+}
+.focus-head{
+    text-align: center;
+}
+.focus-tital{
+    font-weight: 700px;
+    font-size: 50px;
+
+}
+.focus-description{
+    font-size: 18px;
+}
+.focus-img{
+    border-radius: 48px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+/* .touch-style */
+
+.touch{
+    display: flex;
+    align-items: center;
+}
+.touch-title{
+    font-weight: 700px;
+    font-size: 90px;
+    padding-top: 304px;
+    padding-left: 150px;
+    padding-right: 100px;
+    padding-bottom: 200px;
+    }
+
+input[type="email"], input[type="text"],textarea {
+    height: 70px;
+    width: 497px;
+    border: none;
+    background-color: #f4f4f7;
+    border-radius: 10px;
+    font-size: larger;
+
+
+ }
